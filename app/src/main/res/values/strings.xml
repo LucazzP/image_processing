@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Image Processing</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="pick_image">Pick Image</string>
 </resources>
