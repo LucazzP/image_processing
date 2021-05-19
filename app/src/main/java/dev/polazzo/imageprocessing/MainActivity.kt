@@ -46,7 +46,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun transformOriginalImageToGray(newPhotoUri: Uri) {
-
+        val matrix = ColorMatrix()
+        matrix.setSaturation(0F)
+        imageViewGray.colorFilter = ColorMatrixColorFilter(matrix)
     }
 
     private fun openGalleryForImage() {
